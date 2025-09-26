@@ -1,4 +1,4 @@
-# Tracker API (0.1.0)
+# Tracker API (0.2.0)
 
 A FastAPI-based project for project management.  
 
@@ -29,7 +29,19 @@ pip install -e .
 
 This installs all Python dependencies and your local package in editable mode, so any changes in the code are immediately available.
 
-### 3. Start the server
+### 3. Configure environment variables
+
+Before starting the server, create a `.env` file in the root directory and add the following variables:
+
+```bash
+MONGODB_APPNAME = example     # Your app name
+MONGODB_DBNAME = example      # Your database name
+MONGODB_USERNAME = example    # Your username
+MONGODB_PASSWORD = example    # Your password
+```
+
+
+### 4. Start the server
 
 ```bash
 uvicorn app.main:app --reload
