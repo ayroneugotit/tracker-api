@@ -1,5 +1,6 @@
 import logging
 import sys
+
 from uvicorn.logging import DefaultFormatter
 
 logger = logging.getLogger("app")

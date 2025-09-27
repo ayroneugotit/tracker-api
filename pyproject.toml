@@ -1,7 +1,7 @@
 [project]
 name="tracker-api"
 description="A FastAPI-based project for project management."
-version="0.1.0"
+version="0.3.0"
 
 authors=[
     { name="Maksim Lundin", email="ayroneugotit@yahoo.com" }

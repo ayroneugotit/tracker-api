@@ -1,4 +1,4 @@
-# Tracker API (0.2.0)
+# Tracker API (0.3.0)
 
 A FastAPI-based project for project management.  
 
